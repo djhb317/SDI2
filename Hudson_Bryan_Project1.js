@@ -21,9 +21,19 @@ var runShow = [ setUp, preShow, show, showBreakDown];
     var show = 5;
     var showBreakDown = 5;
     console.log("Setup for this show is"  + setUp +  "hours.");
+    for (var setUp = 6; setUp > 0; setUp--);
+    console.log(setUp + "Hours remaining for setup.");
     console.log("Pre Show prep for this show is"  + preShow +  "hours.");
+    for (var preShow = 2; preShow > 0; preShow--);
+    console.log(preShow + "Hours remaining for pre show prep.");
     console.log("The run time for this show is"  + show +  "hours.");
-    console.log("The show break down for this show is"  + showBreakDown +  "hours.");
+    for (var show = 5; show > 0; show--);
+    console.log(show + "Hours remaining for this show");
+    console.log("The show break down for this show is"  + showBreakDown +       "hours.");
+    for (var showBreakDown = 6; showBreakDown > 0; showBreakDown--);
+    console.log(showBreakDown + "Hours remaining for this show break down.");
+  
+
 
 
 
